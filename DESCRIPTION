@@ -1,0 +1,7 @@
+Package: tpc
+Title: Testing for population continuity using gentic data
+Description: 
+Version: 0.1.0
+Author: Joe Pickrell <joepickrell@gmail.com>
+Maintainer: Joe Pickrell <joepickrell@gmail.com>
+License: GPL-3
