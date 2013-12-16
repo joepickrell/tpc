@@ -46,5 +46,5 @@ Example:
 
 cd R/
 
-R --vanilla --args  1 2 0.04 3000 0.00001 sim166.in sim166.out < MCMC_new.R
+R --vanilla --args  1 2 0.04 3000 0.00001 ../sim166.in sim166.out < MCMC_new.R
 
