@@ -9,11 +9,17 @@ R --vanilla --args [index1] [index2] [prior on c] [fpropose] [tpropose] [input f
 where:
 
 [index1] is the line number in the input file containing the data from the earlier population in time (excluding the header)
+
 [index2] is the line number in the input file containing the data from the later population in time (exclusing the header)
+
 [prior on c] is the prior mean on the drift parameter t/N, where t is the number of generations separating the populations and N is the effective population size
+
 [fpropose] is the tuning parameter for the update of the vector of haplotype frequencies f
+
 [tpropose] is the variance on the update of the vector of thetas
+
 [input file] the input file, format described below
+
 [output file] the output file 
 
 Input file:
