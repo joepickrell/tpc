@@ -1,5 +1,5 @@
 
-source("/groups/reich/jp203/projects/mtdna/run_all/funcs_new.R")
+source("funcs_new.R")
 
 a = commandArgs(T)
 index1 = a[1]
