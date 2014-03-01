@@ -1,14 +1,14 @@
-**Test for population continuity**
+***Test for population continuity***
 
 R code for the TPC from Brandt et al. (2013) 
 
-Requirements:
+***Requirements:***
 
 R library MCMCpack
 
 R library mvtnorm
 
-Usage:
+***Usage:***
 
 R --vanilla --args [index1] [index2] [prior on c] [fpropose] [tpropose] [input file] [output file] < MCMC_new.R
 
@@ -30,21 +30,21 @@ where:
 
 
 
-Input file:
+***Input file:***
 
 Example in sim166.in. Each line contains the population id, the total number of haplotypes, and the counts of each individual haplotype. The first line in the header.
 
 
 
-Output file:
+***Output file:***
 
 Stores the output of all parameters every 10 iterations. At the end of the file is the posterior predictive P-value.
 
 
 
-Example:
+***Example:***
 
-cd R/
+>cd R/
 
-R --vanilla --args  1 2 0.04 3000 0.00001 ../sim166.in sim166.out < MCMC_new.R
+>R --vanilla --args  1 2 0.04 3000 0.00001 ../sim166.in sim166.out < MCMC_new.R
 
