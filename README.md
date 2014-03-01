@@ -1,4 +1,4 @@
-Test for population continuity
+**Test for population continuity**
 
 R code for the TPC from Brandt et al. (2013) 
 
